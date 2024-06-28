@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.required-field::after {
+  content: "*";
+  color: red;
+}
