@@ -29,7 +29,7 @@ export default function ContactForm({setFormDataArray}) {
 
     
     const validateEmail = (value) => {
-        const regex = /^[^\s@]+@websitevikreta\.com$/; // Any username with specific domain validation
+        const regex = /^[^\s@]+@websitevikreta\.com$/; 
         return regex.test(value) || 'Email must be of the form username@websitevikreta.com';
     };
       
