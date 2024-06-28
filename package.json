@@ -1,7 +1,7 @@
 {
-  "homepage":"https://Prasad2604.github.io/contact-form",
-  "name": "contact-form",
-  "private": true,
+  "homepage":"https://Prasad2604.github.io/Contact-Form",
+  "name": "Contact-Form",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {

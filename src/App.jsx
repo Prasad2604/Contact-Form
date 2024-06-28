@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="Contact-Form">
       <Routes>
         <Route path='/' element={<ContactForm  setFormDataArray={setFormDataArray} />}></Route>
         <Route path='/display' element={<DisplayForm formDataArray={formDataArray}/>}/>
